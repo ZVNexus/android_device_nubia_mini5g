@@ -18,6 +18,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # GSI
 $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 
+# Namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    device/nubia/mini5g
+
 # Platform
 TARGET_BOARD_PLATFORM := msmnile
 

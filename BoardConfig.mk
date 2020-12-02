@@ -36,6 +36,9 @@ TARGET_BOOTLOADER_BOARD_NAME := msmnile
 # Display
 TARGET_SCREEN_DENSITY := 480
 
+# Init
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_nubia
+
 # Kernel
 TARGET_NO_KERNEL := true
 
